@@ -3,37 +3,37 @@ import { motion } from "framer-motion"
 const fotos = [
   {
     id: 1,
-    imagen: "/recuerdo1.jpg",
+    imagen: `${import.meta.env.BASE_URL}recuerdo1.jpg`,
     titulo: "Nuestro primer recuerdo",
     descripcion: "Un momento que siempre voy a guardar conmigo ❤️",
   },
   {
     id: 2,
-    imagen: "/recuerdo2.jpg",
+    imagen: `${import.meta.env.BASE_URL}recuerdo2.jpg`,
     titulo: "Un día contigo",
     descripcion: "Porque incluso los momentos simples son especiales contigo.",
   },
   {
     id: 3,
-    imagen: "/recuerdo3.jpg",
+    imagen: `${import.meta.env.BASE_URL}recuerdo3.jpg`,
     titulo: "Un recuerdo más",
     descripcion: "Otro pedacito de nuestra historia 🌻",
   },
   {
     id: 4,
-    imagen: "/recuerdo4.jpg",
+    imagen: `${import.meta.env.BASE_URL}recuerdo4.jpg`,
     titulo: "Momentos juntos",
     descripcion: "De esos momentos que quisiera repetir muchas veces.",
   },
   {
     id: 5,
-    imagen: "/recuerdo5.jpg",
+    imagen: `${import.meta.env.BASE_URL}recuerdo5.jpg`,
     titulo: "Siempre nosotros",
     descripcion: "Y todavía quedan muchísimos recuerdos por crear.",
   },
   {
     id: 6,
-    imagen: "/recuerdo6.jpg",
+    imagen: `${import.meta.env.BASE_URL}recuerdo6.jpg`,
     titulo: "Te Rezo?🤤",
     descripcion: "🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️🙇🏻‍♂️",
   },

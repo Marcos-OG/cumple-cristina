@@ -267,7 +267,7 @@ function Carta() {
             >
 
               <img
-                src="/pista.jpg"
+                src={`${import.meta.env.BASE_URL}pista.jpg`}
                 alt="Pista"
                 className="w-full max-h-80 object-cover"
               />
